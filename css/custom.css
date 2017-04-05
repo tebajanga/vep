@@ -1,0 +1,90 @@
+.event-map{
+  background: url(../images/daressalaam_map_min.jpg);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-attachment: fixed;
+}
+
+.event-details{
+  width: 270px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 25px;
+}
+
+.event-details .well{
+  margin-bottom: 0px;
+  background: #fff;
+}
+
+.event{
+  width: auto;
+  position: fixed;
+  cursor: pointer;
+  text-align: center;
+}
+
+.well, button, .ngdialog-content, input{
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+.hall-map{
+  background: #fefefe;
+}
+
+.hall-map-top{
+  text-align: center;
+}
+
+.row-stands div{
+  height: 200px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.row-stands div:nth-child(odd){
+  background: #cad2c5;
+}
+
+.row-stands div:nth-child(even){
+  background: #ebebeb;
+}
+
+.stand .status{
+  color: #fff;
+  font-weight: bold;
+  background: #fe5f55;
+  padding: 5px 15px 5px 15px;
+}
+
+.stand p{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.stand-free{
+  padding-top: 35px;
+}
+
+.stand-free .price{
+  font-size: 24px;
+}
+
+.company-logo{
+  width: 90px;
+  height: 90px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  background: #fff;
+}
+
+.stand-bottom{
+  background: red;
+}
+
+.booked span{
+  font-size: 12px;
+}
